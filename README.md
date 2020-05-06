@@ -80,7 +80,9 @@ colors:
   # The yellow color.
   yellow: 5
 ```
+
 ## Gradle
+
 ```
 repositories {
   maven {
@@ -88,6 +90,7 @@ repositories {
   }
 }
 ```
+
 ```
 compileOnly "net.wytrem.spigot:annotated-config-node:+"
 ```
