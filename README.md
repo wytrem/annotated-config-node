@@ -70,13 +70,24 @@ myFlag: true
 
 # Stores the colors.
 colors:
-  
+
   # The green color.
   green: 3
-  
+
   # The red color.
   red: 9
-  
+
   # The yellow color.
   yellow: 5
+```
+## Gradle
+```
+repositories {
+  maven {
+    url "http://wytrem.github.io/maven/"
+  }
+}
+```
+```
+compileOnly "net.wytrem.spigot:annotated-config-node:+"
 ```
