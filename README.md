@@ -48,7 +48,6 @@ System.out.println("config.colors.green = " + config.colors.green);
 
 
 // Save config
-config.colors.green = (int) (Math.random() * 1000);
 config.storeAtRoot(commentedYaml);
 try {
     commentedYaml.save(file);
