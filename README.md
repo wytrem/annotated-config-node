@@ -56,3 +56,27 @@ try {
 }
 
 ```
+
+Result:
+
+```yaml
+# That's a comment for myInt.
+# It's a very beautiful field.
+# Numbers are great.
+myInt: 9
+
+# But booleans are awesome as well.
+myFlag: true
+
+# Stores the colors.
+colors:
+  
+  # The green color.
+  green: 3
+  
+  # The red color.
+  red: 9
+  
+  # The yellow color.
+  yellow: 5
+```
